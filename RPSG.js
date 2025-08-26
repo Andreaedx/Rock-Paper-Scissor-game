@@ -77,7 +77,7 @@ const playGame = function(){
     }else if(computerScore > playerScore){
         return `computer: ${computerScore} and player: ${playerScore} you lost!`;
     }else{
-        return `computer: ${computerScore} and player: ${playerScore} Winner!`;
+        return `computer: ${computerScore} and player: ${playerScore} you winner!`;
     }
 }
 console.log(playGame());
